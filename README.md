@@ -65,6 +65,11 @@ python trajectories.py --levels_type pl 2023-01-04T15 /path/to/your/wind/file/12
 If you have any questions or feedback, feel free to reach out to me:
 - Email: hernandezpardo at iau.uni-frankfurt.de
 
+## Citing:
+
+The DOI of this repository is: 10.5281/zenodo.10498508
+
 ## Acknowledgments: 
 
-I am grateful to Prof. Dr. Anna Possner for her insightful discussions and valuable suggestions. The core of this code drew inspiration from Tom Gowa's code, which can be found at https://github.com/tomgowan/trajectories. This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – TRR 301 – Project-ID 4283127
+I am grateful to Prof. Dr. Anna Possner for her insightful discussions and valuable suggestions. The core of this code drew inspiration from Tom Gowa's code, which can be found at https://github.com /tomgowan/trajectories. This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – TRR 301 – Project-ID 4283127
+
