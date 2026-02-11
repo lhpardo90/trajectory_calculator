@@ -60,10 +60,6 @@ Calculating trajectories from 3D pressure-level wind data:
 ```bash
 python trajectories.py --levels_type pl 2023-01-04T15 /path/to/your/wind/file/12UTC_pl.nc /path/to/your/initial/locations/init_locations_0000_2023-01-04_15Z.txt /path/to/your/output/dir/my_output
 ```
-## Contact:
-
-If you have any questions or feedback, feel free to reach out to me:
-- Email: hernandezpardo at iau.uni-frankfurt.de
 
 ## Citing:
 
