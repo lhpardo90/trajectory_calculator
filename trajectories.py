@@ -20,7 +20,7 @@ Parameters:
 Input data format:
     The wind field needs to be provided as a single netcdf file via the 'wind_filename' argument. This file must contain at least the variables 'u' and 'v' in m/s. For 3D trajectories, the variable 'w' in Pa/s must be provided in the same file as 'u' and 'v'. All time steps in the desired integration interval must be included in the same file. The grid must be regular in the horizontal dimension, using either pressure or hybrid sigma-pressure levels. If using hybrid levels, the wind must be provided at 'full' levels, and a separate netcdf file containing the surface pressure (variable 'sp', in Pa units) and a CSV file containing the hybrid coefficients 'a' and 'b' at interface (or 'half') levels in separate columns must be provided via the '--sp_filename' and '--coeff_filename' arguments (see Options). The netcdf files should have dimensions: 'time', 'level', 'latitude', 'longitude' (excluding 'level' for the surface pressure file).
 
-Author: Lianet Hernández Pardo (hernandezpardo at iau.uni-frankfurt.de)
+Author: Lianet Hernández Pardo
 Date: October 9, 2023
 """
 
